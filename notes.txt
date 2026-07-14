@@ -31,3 +31,9 @@ git checkout <branch-name>
 
 
 when you work with organization you will create a new branch and work with that branch and you have to create a PR (Pull Request)
+
+
+you can save your changes temporarily 
+by using "git stash"
+
+and after you want your changes you can use "git stash pop"
