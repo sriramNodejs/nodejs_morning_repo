@@ -19,7 +19,9 @@ app.post('/', (req, res) => {
   res.send('Hello World from post api');
 });
 
-
+app.put('/', (req, res) => {
+  res.send('Hello World from put api');
+});
 
 app.listen(process.env.PORT || 3000, () => {
   console.log(`Server is running on port ${process.env.PORT || 3000}`);

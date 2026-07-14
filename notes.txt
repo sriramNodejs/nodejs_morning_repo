@@ -1,0 +1,33 @@
+how you can take a pull from your current branch
+command -> git pull origin main
+
+how you can see which online repo you are having with your folder 
+git remote -v
+
+create a new branch 
+
+we have to use a supporting branch (mother branch) -> you can create a new branch 
+
+
+you are in main
+you want to create a new branch from main branch and switch to new branch
+
+1. git checkout -b <new-branch-name>
+2. git switch -c <new-branch-name>
+
+git checkout -b new-branch-from-checkout-cmd
+
+how you can push your branch to online(github.com) 
+git push origin <new-branch-name>
+
+
+git switch -c new-branch-from-switch-cmd
+
+
+how to switch to another branch (not creating a branch)
+git switch <branch-name>
+git checkout <branch-name>
+
+
+
+when you work with organization you will create a new branch and work with that branch and you have to create a PR (Pull Request)
